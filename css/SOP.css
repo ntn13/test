@@ -1,0 +1,31 @@
+.table {
+    font-family: "Fira Sans", sans-serif;
+    /* border-collapse: collapse; */
+  }
+  
+  .table th {
+    text-align: left;
+    border-top: 2px solid #009578;
+    border-bottom: 2px solid #009578;
+    padding: 5px;
+    background-color: #cad8fa;
+  }
+  
+  .table td {
+    background-color: #f0e7da;
+    padding: 5px;
+  }
+  .search-input {
+    font-size: 1em;
+    padding: 0.6em 1em;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    font-family: "Fira Sans", sans-serif;
+  }
+  .table {
+    /* border: none; */
+    width: 100%;
+}

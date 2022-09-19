@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/SOP.css">
+    <title>SOP</title>
+</head>
+<body>
+    <table class="table">
+        <thead>
+          <tr>
+            <th style="width: 5%;">
+              <input type="text" class="search-input" placeholder="STT" style="width: 55%;">
+            </th>
+            <th style="width: 50%;">
+              <input type="text" class="search-input" placeholder="Nội dung thực hiện">
+            </th>
+            <th style="width: 45%;">
+              <input type="text" class="search-input" placeholder="Hình ảnh minh họa">
+            </th>
+            <!-- <th>
+              <input type="text" class="search-input" placeholder="Nguyên nhân">
+            </th> -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style=" text-align: center;">Bước 1</a></td>
+            <td>
+                <Span style="color: red;">Kiểm tra trên màn hình tủ MAP báo lỗi tại vị trí tủ nào </Span> <br>
+                
+                -  Kiểm tra tủ MAP đang báo nguồn chính (MAIN: FAIL), và đang dùng nguồn Ắc quy (BATTERY: DETECTED)<br>
+                -  Kiểm tra vị trí lỗi tại tủ nào theo Network Point</td>
+            <td> <img src="./img/SOP/SOP011.jpg" alt=""></td>
+          </tr>
+          <tr>
+            <td style=" text-align: center;">Bước 2</a></td>
+            <td>
+                <Span style="color: red;">
+                    Kiểm các tình trạng hoạt động của tủ khi được cấp nguồn từ ắc quy dự phòng  </Span> <br>
+                
+                    - Nếu có thiết bị nào bị mất nguồn cung cấp từ ắc quy thì kiểm tra:<br>
+                    + Dây cấp nguồn: Giắc cắm lỏng hay dây đứt không<br>
+                    + Cầu chì cấp nguồn: Có bị cháy hỏng không, nếu hỏng thì thay thế cầu chì mới<br>
+                 - Tất cả đều bình thường chuyển sang bước tiếp theo</td>
+            <td> <img src="./img/SOP/SOP012.jpg" alt=""></td>
+          </tr>
+          <tr>
+            <td style=" text-align: center;">Bước 3</a></td>
+            <td>
+                <Span style="color: red;">Kiểm tra nguồn cấp tới tủ </Span> <br>
+                - Kiểm tra vị trí công tắc có đang ON không.<br>
+- Đo điện áp tại vị trí cấp nguồn tới.<br>
+    + Nếu nguồn đạt 220VAC (±5%), tiến hành bước tiếp theo.<br>
+    + Nếu nguồn không đạt (mất hoặc thấp áp) liên hệ đội ĐNCT để kiểm tra lại nguồn cấp.</td>
+            <td> <img src="./img/SOP/SOP013.jpg" alt=""></td>
+          </tr>
+          <tr>
+            <td style=" text-align: center;">Bước 4</a></td>
+            <td>
+                <Span style="color: red;">Kiểm tra bộ nguồn trong tủ </Span> <br>
+                
+                
+- Kiểm tra tình trạng hoạt động của bộ nguồn<br>
+Đo điện áp đầu vào (220VAC) và đầu ra bộ nguồn (27-30VDC). <br>
++ Nếu đạt kiểm tra bảng phân phối nguồn  <br>
++ Không đạt tiến hành tháo bộ nguồn để tìm nguyên nhân khắc phục.</td>
+            <td> <img src="./img/SOP/SOP014.jpg" alt=""></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    <script src="js/SOP.js"></script>
+</body>
+</html>
