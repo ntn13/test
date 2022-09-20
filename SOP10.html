@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/SOP.css">
+    <title>SOP</title>
+</head>
+
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="width: 10%;">
+                    <input type="text" class="search-input" placeholder="STT">
+                </th>
+                <th style="width: 50%;">
+                    <input type="text" class="search-input" placeholder="Nội dung thực hiện">
+                </th>
+                <th style="width: 40%;">
+                    <input type="text" class="search-input" placeholder="Hình ảnh minh họa">
+                </th>
+                <!-- <th>
+              <input type="text" class="search-input" placeholder="Nguyên nhân">
+            </th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style=" text-align: center;">Bước 1</a></td>
+                <td>
+                    <Span style="color: red;"></Span> <br>
+
+                    Trên màn hình MAP sẽ xuất hiện lỗi "Earth Fault".<br>
+                    Đèn "Earth Fault" sẽ sáng như hình bên, đồng thời trên màn hình điều khiển sẽ hiển thị đang bị chạm
+                    đất từ tủ điều khiển nào.
+                </td>
+                <td> <a href="img/SOP/SOP0101.jpg"><img src="./img/SOP/SOP0101.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 2</a></td>
+                <td>
+                    <Span style="color: red;"></Span> <br>
+
+                    Rút cả 2 đầu A và B của từng loop để xác định loop nào bị lỗi "Earth Fault"?
+                </td>
+                <td> <a href="img/SOP/SOP0102.jpg"><img src="./img/SOP/SOP0102.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 3</a></td>
+                <td>
+                    <Span style="color: red;"></Span> <br>
+                    Giả sử Loop 42 có tất cả 40 đầu báo bị lỗi chạm đất, ta sẽ xử lý như sau:<br>
+                    - Rút giắc đầu B, giữ giắc đầu A. Tại đầu báo thứ 20, ta tháo tất cả đầu dây của đầu báo 20, kiểm tra xem còn lỗi "Earth Fault" không? Nếu không bị lỗi chứng tỏ, lỗi "Earth Fault" từ đầu báo thứ 20 đến 40. Còn nếu bị lỗi, chứng tỏ bị lỗi "Earth Fault" từ đầu báo thứ 1 đến 20.<br>
+                    - Tiếp tục chia từng đoạn đầu báo như vậy cho đến khi tìm ra điểm bị lỗi "Earth Fault" để xử lý cho đến khi hết lỗi.
+                </td>
+                <td> <a href="img/SOP/SOP0102.jpg"><img src="./img/SOP/SOP0102.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 4</a></td>
+                <td>
+                    <Span style="color: red;"></Span> <br>
+                    Sau khi khắc phục thiết bị bị chạm chập thì kết nối loop lại với tủ điều khiển rồi test loop lại.
+                </td>
+                <td> <a href=""><img src="" alt=""></a></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+    <script src="js/SOP.js"></script>
+</body>
+
+</html>

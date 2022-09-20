@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/SOP.css">
+    <title>SOP</title>
+</head>
+<body>
+    <table class="table">
+        <thead>
+          <tr>
+            <th style="width: 10%;">
+              <input type="text" class="search-input" placeholder="STT">
+            </th>
+            <th style="width: 50%;">
+              <input type="text" class="search-input" placeholder="Nội dung thực hiện">
+            </th>
+            <th style="width: 40%;">
+              <input type="text" class="search-input" placeholder="Hình ảnh minh họa">
+            </th>
+            <!-- <th>
+              <input type="text" class="search-input" placeholder="Nguyên nhân">
+            </th> -->
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+                <td style=" text-align: center;">Bước 1</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Khi bị lỗi hở mạch, trên tủ MAP, SAP sẽ xuất hiện lỗi "OPEN CURCUIT" như hình bên và đồng thời đèn báo "Fault" sáng. Không báo trên màng hình GRAPHICS
+                </td>
+                <td> <a href="img/SOP/SOP081.jpg"><img src="./img/SOP/SOP081.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 1.1</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Sau thời gian dài sử dụng thiết bị sẽ bị báo chập chờn. Tiến hành test loop lại để hệ thống trở lại hoạt động bình thường.
+                </td>
+                <td> <a href="img/SOP/SOP0811.jpg"><img src="./img/SOP/SOP0811.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 1.2</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Trình tự Test loop như sau:<br>
+Tại màn hình điều khiển tủ MAP ta thực hiện:<br>
+- Ấn phím Fuction, sẽ hiện ra màn hình yêu cầu đăng nhập Password.<br>
+như sau: <br>
+Ta tiến hành nhập Password là: 3333
+                </td>
+                <td> <a href="img/SOP/SOP0812.jpg"><img src="./img/SOP/SOP0812.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 1.3</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Chọn 1 để test Loop
+                </td>
+                <td> <a href="img/SOP/SOP0813.jpg"><img src="./img/SOP/SOP0813.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 1.4</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Chọn Loop cần test, sau đó ấn phím ENTER.
+                </td>
+                <td> <a href="img/SOP/SOP0814.jpg"><img src="./img/SOP/SOP0814.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 1.5</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        - Sau đó hệ thống sẽ tự động TEST LOOP, hệ thống trở về trạng thái hoạt động bình thường. <br>
+- Nếu sau khi TEST LOOP vẫn không hết lỗi ta tiến hành chuyển qua bước 2 để kiểm tra vị trí bị hở mạch.
+                </td>
+                <td> <a href="img/SOP/SOP0815.jpg"><img src="./img/SOP/SOP0815.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 2</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Kiểm tra xác định vị trí hở mạch trên thực tế để khắc phục đưa hệ thống về hoạt động bình thường.
+                </td>
+                <td> <a href=""><img src="" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 2.1</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Tại tủ điều khiển MAP, hoặc SAP có LOOP đang báo hở mạch. Rút đầu A, giữ nguyên đầu B và Test loop xem hệ thống không nhận đầu báo thứ bao nhiêu từ phía đầu B.
+                </td>
+                <td> <a href="img/SOP/SOP0821.jpg"><img src="./img/SOP/SOP0821.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 2.2</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Rút đầu B, giữ nguyên đầu A, test loop xem hệ thống không nhận từ đầu báo thứ bao nhiêu từ phía đầu A.
+                </td>
+                <td> <a href="img/SOP/SOP0821.jpg"><img src="./img/SOP/SOP0821.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 2.3</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        So sánh kết quả 2 lần test, kiểm tra trên màn hình Graphic, trên tủ bảo cháy và trên bản vẽ xem vị trí từ lần test 1 và lần test 2 xem LOOP báo cháy đó không không nhận từ đầu báo bao nhiêu đến đầu báo bao nhiêu. Và kiểm tra xem trong các đầu báo bị lỗi có đế isolate nào bị lỗi không? (thường đèn nháy hoặc đỏ là đế hỏng). Nếu đế bị hỏng thì tiến hành thay đế isolate.
+                </td>
+                <td> <a href="img/SOP/SOP0821.jpg"><img src="./img/SOP/SOP0821.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 2.4</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Nếu đế Isolate vẫn bình thường thì tiến hành kiểm tra và siết lại đầu dây của tất cả các thiết bị không nhận sau 2 lần test.
+                </td>
+                <td> <a href="img/SOP/SOP0824.jpg"><img src="./img/SOP/SOP0824.jpg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td style=" text-align: center;">Bước 2.5</a></td>
+                <td>
+                    <Span style="color: red;">
+                        </Span> <br>
+
+                        Test loop và reset hệ thống.
+                </td>
+                <td> <a href="img/SOP/SOP0824.jpg"><img src="./img/SOP/SOP0824.jpg" alt=""></a></td>
+            </tr>
+          
+        </tbody>
+      </table>
+    <script src="js/SOP.js"></script>
+</body>
+</html>
