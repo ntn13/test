@@ -38,15 +38,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand scroll-top"><em>AHT</em></a>
+                    <!-- <a href="#" class="navbar-brand scroll-top"><em>AHT</em></a> -->
+                    <a href="#" class="navbar-brand scroll-top"><img src="img/logo-removebg-preview.jpg" alt="" style="width:100px; "></a>
                 </div>
                 <!--/.navbar-header-->
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="#" class="scroll-top">Trang Chủ</a></li>
                         <li><a href="#" class="scroll-link" data-id="about">Kiểm Tra</a></li>
-                        <li><a href="#" class="scroll-link" data-id="portfolio">Hệ Thống</a></li>
-                        <li><a href="#" class="scroll-link" data-id="blog">Quản Lý</a></li>
+                        <li><a href="#" class="scroll-link" data-id="portfolio">Tài Liệu Hệ Thống</a></li>
+                        <li><a href="#" class="scroll-link" data-id="blog">Quy Trình Xử Lý Sự Cố</a></li>
                         <li><a href="#" class="scroll-link" data-id="contact-us">Liên Hệ</a></li>
                     </ul>
                 </div>
@@ -62,7 +63,8 @@
     <div class="parallax-content baner-content" id="home">
         <div class="container">
             <div class="text-content">
-                <h2><em>AHT</em> <span>MECHAELECTRIC</span> TEAM</h2>
+                <h2> <span>MECHAELECTRIC</span> TEAM</h2>
+                <!-- <img src="img/logo-removebg-preview.jpg" alt="" style="width:100px; height: 80px; margin-top: -18px;"> -->
                 <p>Trang web này được lập ra nhằm mục đích rèn luyện, trau dồi ,nâng cao kiến thức cho tất cả các thành
                     viên thuộc đội cơ điện</p>
                 <div class="primary-white-button">
@@ -137,110 +139,201 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <div class="section-heading">
-                            <h4>Hệ thống</h4>
+                            <h4>HỆ THỐNG</h4>
                             <div class="line-dec"></div>
-                            <p>Hệ thống Cơ Điện được chia thành 3 hệ. </p>
+                            <p>TÀI LIỆU CƠ ĐIỆN ĐƯỢC CHIA THÀNH<Br> 3 HỆ THỐNG</p>
                             <div class="filter-categories">
                                 <ul class="project-filter">
-                                    <li class="filter" data-filter="all"><span>Tất cả các hệ thống</span></li>
-                                    <li class="filter" data-filter="branding"><span>Hệ thống cơ điện</span></li>
-                                    <li class="filter" data-filter="graphic"><span>Hệ thống băng tải</span></li>
-                                    <li class="filter" data-filter="nature"><span>Hệ thống cầu hành khách</span></li>
-                                    <li class="filter" data-filter="animation"><a href="SOPLIST.html"><span>SOP</span></a></li>
+                                    <!-- <li class="filter" data-filter="all" ><span>Tất cả các hệ thống</span></li>  -->
+                                    <li class="filter" data-filter="codien"  ><span>Hệ thống cơ điện</span></li>
+                                    <li class="filter" data-filter="bt"  ><span>Hệ thống băng tải</span></li>
+                                    <li class="filter" data-filter="chk"  ><span>Hệ thống cầu hành khách</span></li>
+                                    <li onclick="show()" ><span style="color: red;">[Hiện / Ẩn] Hệ Thống</span></li>
+                                    <!-- <li class="filter" data-filter="animation"><a href="SOPLIST.html"><span>SOP</span></a></li> -->
+                                    
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="projects-holder-3">
+                    <div class="col-md-8" id="myDIV">
+                        <div class="projects-holder-3" >
                             <div class="projects-holder">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6 project-item mix branding">
+                                <div class="row" >
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="#" data-lightbox="image-1">CHILLER<img
-                                                        src="img/portfolio_item_01.jpg"></a>
+                                                <a href="img/HETHONG/baochay1.jpg" data-lightbox="image-1">BÁO CHÁY<img
+                                                        src="img/HETHONG/baochay1.jpg" style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-md-6 col-sm-6 project-item mix branding">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_02.jpg" data-lightbox="image-1">IBMS<img
-                                                        src="img/portfolio_item_02.jpg"></a>
+                                                <a href="img/HETHONG/CHUACHAY1.jpg" data-lightbox="image-1">CHỮA CHÁY<img
+                                                        src="img/HETHONG/CHUACHAY1.jpg" style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix branding">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_03.jpg" data-lightbox="image-1">PCCC<img
-                                                        src="img/portfolio_item_03.jpg"></a>
+                                                <a href="img/HETHONG/FM200.jpg" data-lightbox="image-1">FM 200<img
+                                                        src="img/HETHONG/FM200.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix branding">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_04.jpg" data-lightbox="image-1">THANG MÁY & THANG CUỐN<img
-                                                        src="img/portfolio_item_04.jpg"></a>
+                                                <a href="img/HETHONG/CUATHOATKHOI1.jpg" data-lightbox="image-1">CỬA THOÁT KHÓI<img
+                                                        src="img/HETHONG/CUATHOATKHOI1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix graphic">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_05.jpg" data-lightbox="image-1">CHECK IN <img
-                                                        src="img/portfolio_item_05.jpg"></a>
+                                                <a href="img/HETHONG/INTERCOM1.jpg" data-lightbox="image-1">INTERCOM<img
+                                                        src="img/HETHONG/INTERCOM1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix graphic">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_06.jpg" data-lightbox="image-1">BĂNG CHUYỀN ĐẢO ĐẾN<img
-                                                        src="img/portfolio_item_06.jpg"></a>
+                                                <a href="img/HETHONG/AHU1.jpg" data-lightbox="image-1">AHU<img
+                                                        src="img/HETHONG/AHU1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix graphic">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_05.jpg" data-lightbox="image-1">MÁY SOI<img
-                                                        src="img/portfolio_item_05.jpg"></a>
+                                                <a href="img/HETHONG/CHILLER1.jpg" data-lightbox="image-1">CHILLER<img
+                                                        src="img/HETHONG/CHILLER1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_04.jpg" data-lightbox="image-1">CẦU HÀNH KHÁCH<img
-                                                        src="img/portfolio_item_04.jpg"></a>
+                                                <a href="img/HETHONG/QUAT1.jpg" data-lightbox="image-1">QUẠT<img src="img/HETHONG/QUAT1.jpg"style="width: 345px;
+                                                    height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_03.jpg" data-lightbox="image-1">CẤP ĐIỆN<img
-                                                        src="img/portfolio_item_03.jpg"></a>
+                                                <a href="img/HETHONG/VRV1.jpg" data-lightbox="image-1">VRV<img
+                                                        src="img/HETHONG/VRV1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_02.jpg" data-lightbox="image-1">CẤP KHÍ<img
-                                                        src="img/portfolio_item_02.jpg"></a>
+                                                <a href="img/HETHONG/FCU1.jpg" data-lightbox="image-1">FCU<img
+                                                        src="img/HETHONG/FCU1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="img/portfolio_big_item_02.jpg" data-lightbox="image-1">CẤP NƯỚC<img
-                                                        src="img/portfolio_item_02.jpg"></a>
+                                                <a href="img/HETHONG/IBMS1.jpg" data-lightbox="image-1">IBMS<img
+                                                        src="img/HETHONG/IBMS1.jpg" style="width: 345px; height: 244px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix codien">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/HETHONG/XULYNUOCCHILLER1.jpg" data-lightbox="image-1">XỬ LÝ NƯỚC CHILLER<img
+                                                        src="img/HETHONG/XULYNUOCCHILLER1.jpg" style="width: 345px; height: 244px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix bt">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/HETHONG/BANGTAIDI1.jpg" data-lightbox="image-1">BĂNG CHUYỀN HÀNH LÝ ĐI<img
+                                                        src="img/HETHONG/BANGTAIDI1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix bt">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/HETHONG/BANGTAIDEN1.jpg" data-lightbox="image-1">BĂNG CHUYỀN ĐẢO ĐẾN<img
+                                                        src="img/HETHONG/BANGTAIDEN1.jpg" style="width: 345px;
+                                                        height: 244px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix bt">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/HETHONG/THANGMAY1.jpg" data-lightbox="image-1">THANG MÁY & THANG CUỐN <img
+                                                        src="img/HETHONG/THANGMAY1.jpg" style="width: 345px;
+                                                        height: 244px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix chk">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/HETHONG/CAUHANHKHACH1.jpg" data-lightbox="image-1">PBB<img
+                                                        src="img/HETHONG/CAUHANHKHACH1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix chk">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/HETHONG/VDGS1.jpg" data-lightbox="image-1">VDGS<img
+                                                        src="img/HETHONG/VDGS1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix chk">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/HETHONG/GPU1.jpg" data-lightbox="image-1">GPU<img
+                                                        src="img/HETHONG/GPU1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix chk">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/HETHONG/PCA1.jpg" data-lightbox="image-1">PCA<img
+                                                        src="img/HETHONG/PCA1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix chk">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/HETHONG/PWS1.jpg" data-lightbox="image-1">PWS<img
+                                                        src="img/HETHONG/PWS1.jpg"style="width: 345px;
+                                                        height: 244px;"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -266,46 +359,48 @@
                 <div class="wrapper">
                     <div class="col-md-4">
                         <div class="section-heading">
-                            <h4>Quản lý đội</h4>
+                            <br>
+                            <h4>Quy Trình Xử Lý Sự Cố <br> [ SOP ]</h4>
                             <div class="line-dec"></div>
-                            <p>Quản lý đội Cơ Điện hiện tại bao gồm</p>
+                            <p>Quy Trình Xử Lý Sự Cố Bao Gồm  </p>
                             <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                                <li><a href="#tab1" class="active">Đội Trưởng - Hồ Phước Thành</a></li>
-                                <li><a href="#tab2">Đội phó - Huỳnh Bá Hùng</a></li>
-                                <li><a href="#tab3">Đội phó - Hồ Trọng Nghĩa</a></li>
-                                <li><a href="#tab4">Đội phó - Hoàng Quang Bảo</a></li>
+                                <!-- <li><a href="#tab1" class="active">Quy trình xử lý xự cố <br> hệ thống cơ điện</a></li> -->
+                                <li><a href="#tab1" class="scroll-link" data-id="first-tab-group">Quy trình xử lý xự cố <br> hệ thống cơ điện</a></li>
+                                <li><a href="#tab2" class="scroll-link" data-id="first-tab-group">Quy trình xử lý xự cố <br>hệ thống băng tải</a></li>
+                                <li><a href="#tab3" class="scroll-link" data-id="first-tab-group">Quy trình xử lý xự cố <br>hệ thống cầu hành khách</a></li>
+                                <!-- <li><a href="#tab4">Đội phó - Hoàng Quang Bảo</a></li> -->
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <section id="first-tab-group" class="tabgroup">
+                        <section id="first-tab-group" class="tabgroup" style="padding-top: 50px;">
                             <div id="tab1">
-                                <img src="img/blog_item_01.jpg" alt="">
+                                <!-- <img src="img/blog_item_01.jpg" alt=""> -->
                                 <div class="text-content">
-                                    <h4>Đội trưởng đội cơ điện</h4>
-                                    <span><a href="https://www.facebook.com/ho.phuocthanh.77">Hồ Phước Thành</a> <a
+                                    <h4>Quy Trình Xử Lý Sự Cố Hệ Thống <br>Cơ Điện</h4>
+                                    <span><a href="SOPLIST.html">SOP Cơ Điện</a> <a
                                             href="#"></a> <a href="#"></a></span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde impedit expedita quam odio dolores dolor, repellendus, ipsa accusantium dignissimos sit provident aperiam voluptatum molestiae deserunt quia mollitia soluta eos cum!.</p>
+                                    <p>Mọi người lưu ý thực hiện từng bước theo đúng quy trình để đảm bảo an toàn</p>
                                 </div>
                             </div>
                             <div id="tab2">
-                                <img src="img/blog_item_02.jpg" alt="">
+                                <!-- <img src="img/blog_item_02.jpg" alt=""> -->
                                 <div class="text-content">
-                                    <h4>Đội phó đội cơ điện</h4>
-                                    <span><a href="https://www.facebook.com/hung.huynh.1884">Huỳnh Bá Hùng</a> <a
+                                    <h4>Quy Trình Xử Lý Sự Cố Hệ Thống <br>Băng Tải</h4>
+                                    <span><a href="SOPLIST.html">SOP Băng Tải</a> <a
                                             href="#"></a> <a href="#"></a></span>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque suscipit veniam doloremque obcaecati hic porro odit quia! Tempora atque corrupti esse impedit autem, eligendi odit, ullam, ipsum doloribus quae neque.</p>
+                                    <p>Mọi người lưu ý thực hiện từng bước theo đúng quy trình để đảm bảo an toàn</p>
                                 </div>
                             </div>
                             <div id="tab3">
-                                <img src="img/blog_item_03.jpg" alt="">
+                                <!-- <img src="img/blog_item_03.jpg" alt=""> -->
                                 <div class="text-content">
-                                    <h4>Đội phó đội cơ điện</h4>
-                                    <span><a href="#"></a> <a href="#">Hồ Trọng Nghĩa</a> <a href="#"></a></span>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quo nulla facilis iusto dolore incidunt accusamus molestias repudiandae, aperiam porro veniam placeat maxime sequi suscipit quasi reprehenderit! Sed, et cupiditate!</p>
+                                    <h4>Quy Trình Xử Lý Sự Cố Hệ Thống <br>Cầu Hành Khách</h4>
+                                    <span><a href="SOPLIST.html"> SOP Cầu Hành Khách</a> <a href="#"></a> <a href="#"></a></span>
+                                    <p>Mọi người lưu ý thực hiện từng bước theo đúng quy trình để đảm bảo an toàn</p>
                                 </div>
                             </div>
-                            <div id="tab4">
+                            <!-- <div id="tab4">
                                 <img src="img/blog_item_04.jpg" alt="">
                                 <div class="text-content">
                                     <h4>Đội phó đội cơ điện</h4>
@@ -313,7 +408,7 @@
                                             href="#"></a> <a href="#"></a></span>
                                     <p>Ready to fly to the sky 🛫🛫🛫✈️✈️✈️</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </section>
                         
                     </div>
@@ -388,8 +483,8 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="logo">
                         <a class="logo-ft scroll-top" href="#"><em></em>AHT</a>
-                        <p>Copyright &copy; 2022 AHT Company
-                            <br>Design: Ngo Trung Nghia
+                        <p>&copy; 2022
+                            <br>Design & Develop: Ngo Trung Nghia
                         </p>
                     </div>
                 </div>
@@ -479,6 +574,16 @@
             window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
             }
             
+        </script>
+        <script>
+            function show() {
+              var x = document.getElementById("myDIV");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
             </script>
         
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

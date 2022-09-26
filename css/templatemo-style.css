@@ -154,11 +154,13 @@ p {
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
-    border-color: #f7c552;
-    background-color: #f7c552;
+    /* border-color: #f7c552; */
+    /* background-color: #f7c552; */
+	border-color: #30C1C8;
+	background-color: #30C1C8;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: #f7c552;
+	background-color: #30C1C8;
 }
 bootstrap.min.css
 .navbar-toggle {
@@ -206,7 +208,8 @@ bootstrap.min.css
   	text-align: center;
   	/* background-image: url(../img/banner_bg.jpg); */
   	vertical-align: middle;
-	background: linear-gradient(360deg, #43cea2, #185a9d);
+	/* background: linear-gradient(360deg, #43cea2, #185a9d); */
+	background: linear-gradient(360deg, #43cea2 ,#69a1e0, #185a9d );
 }
 
 .baner-content .text-content {
@@ -243,7 +246,7 @@ bootstrap.min.css
 
 
 #about {
-	padding: 150px 0px;
+	padding: 256px 0px;
 	background-image: url(../img/about-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -293,6 +296,7 @@ bootstrap.min.css
 
 .projects-holder .mix {
   display: none;
+
 }
 
 .projects-holder {
@@ -330,14 +334,17 @@ bootstrap.min.css
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-color: #33c1cf;
-	height: 732px;
+	height: 908px;
 	margin-left: -100vh;
 	padding-left: 100vh;
 }
 
 #portfolio .project-item {
-	margin: 0px -16px;
+	margin: 0px -10px;
+	/* height: 244PX; */
+
 }
+
 
 #portfolio .section-heading h4 {
 	margin-top: 0px;
@@ -358,7 +365,9 @@ bootstrap.min.css
 #portfolio .section-heading p {
 	color: #fff;
 	padding-right: 70px;
+	font-size: 16px;
 }
+
 
 
 #testimonial {
@@ -426,7 +435,8 @@ bootstrap.min.css
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 582px;
+	/* height: 582px; */
+	height: 888px;
 	margin-left: -100vh;
 	padding-left: 100vh;
 	overflow: hidden!important;
@@ -499,8 +509,16 @@ bootstrap.min.css
   padding: 25px;
   text-align: left;
 }
+.tabgroup .text-content h3 {
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #121212;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
 .tabgroup .text-content h4 {
-	font-size: 17px;
+	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 0.5px;
 	color: #121212;
@@ -508,16 +526,17 @@ bootstrap.min.css
 	margin-bottom: 5px;
 }
 .tabgroup .text-content span {
-	font-size: 13px;
+	font-size: 20px;
 	color: #33c1cf;
 }
 .tabgroup .text-content a {
-	font-size: 13px;
+	font-size: 20px;
 	color: #33c1cf;
 	text-decoration: none;
 }
 .tabgroup .text-content p {
 	margin-top: 10px;
+	font-size: 20px;
 }
 
 .clearfix:after {
@@ -815,6 +834,7 @@ footer .connect-us ul li a:hover {
 
 	#portfolio .project-item {
 		margin: 15px 0px;
+
 	}
 
 	#blog .section-heading {
@@ -909,6 +929,9 @@ footer .connect-us ul li a:hover {
 		font-family: 'Roboto', sans-serif!important;
 		line-height: 55px;
 		color: #343434!important;
+	}
+	.tabgroup .text-content{
+		padding-top: 50px;
 	}
 
 }

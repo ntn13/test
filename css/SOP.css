@@ -7,8 +7,9 @@
     text-align: left;
     border-top: 2px solid #009578;
     border-bottom: 2px solid #009578;
-    padding: 5px;
+    padding: 2px;
     background-color: #cad8fa;
+    
   }
   
   .table td {
@@ -16,8 +17,9 @@
     padding: 5px;
   }
   .search-input {
-    font-size: 1em;
-    padding: 0.6em 1em;
+    font-size: 1.1em;
+    padding: 0.6em 0.6em;
+    
   }
   
   .search-input {
