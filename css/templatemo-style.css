@@ -150,7 +150,7 @@ p {
 }
 .navbar-brand em {
 	font-style: normal;
-	color: #1100ff;
+	/* color: #1100ff; */
 	font-size: 32px;
 }
 .header.active .navbar-brand {
@@ -224,7 +224,7 @@ bootstrap.min.css
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/nhagat2.jpg)!important;;
+  	background-image: url(../img/nhagat2.jpg);
   	vertical-align: middle;
 	/* background: linear-gradient(360deg, #43cea2, #185a9d); */
 	/* background: linear-gradient(360deg, #43cea2 ,#69a1e0, #185a9d ); */
@@ -266,7 +266,7 @@ bootstrap.min.css
 #about {
 	padding: 256px 0px;
 	/* background-image: url(../img/about-bg.jpg); */
-	background-image: url(../images/toancanhnhaga.jpg)!important;;
+	background-image: url(../images/toancanhnhaga.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -444,7 +444,7 @@ bootstrap.min.css
 
 #blog {
 	/* background-image: url(../img/blog-bg.jpg); */
-	background-image: url(../images/toancanhnhagat2.jpg)!important;;
+	background-image: url(../images/toancanhnhagat2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
