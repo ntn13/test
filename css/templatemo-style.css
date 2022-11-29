@@ -4,7 +4,9 @@
     padding: 0;
     font-family: 'Roboto', arial, sans-serif;
 }
-
+html{
+	overflow-x: hidden;
+}
 body {
 	overflow-x: hidden;
 }
@@ -988,7 +990,14 @@ footer .connect-us ul li a:hover {
 	  #mainnav li:hover .sub-menu{
 		display: block;
 	  } */
-	  
+	  /* #mainnav{
+		opacity: 0;
+		display: block;
+		visibility: hidden;
+		overflow: visible;
+		overflow: hidden;
+	} */
+	
 	footer .location ul li {
 		display: block;
 	}
@@ -1137,6 +1146,8 @@ footer .connect-us ul li a:hover {
   
   #toggle-menu, 
   #menu a {
+	margin-top: 30px;
+	font-size: larger;
 	padding: 1em 1.5em;
   }
   
