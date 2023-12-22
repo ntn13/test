@@ -9,7 +9,6 @@ html{
 }
 body {
 	overflow-x: hidden;
-	margin:0;
 }
 .snow{
     position: absolute;
@@ -31,7 +30,7 @@ body {
     }
     100%{
         opacity: 0;
-        transform: translate(100px,50vh);
+        transform: translate(100px,100vh);
     }
 }
 ul {
