@@ -9,6 +9,7 @@ html{
 }
 body {
 	overflow-x: hidden;
+	margin:0;
 }
 .snow{
     position: absolute;
@@ -242,6 +243,14 @@ bootstrap.min.css
   width: 100%;
   min-height: 100vh;
   background-size: cover;
+    position: relative;
+    height:100vh;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .baner-content {
