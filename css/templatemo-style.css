@@ -11,7 +11,7 @@ body {
 	overflow-x: hidden;
 }
 
-.snow{
+/* .snow{
     position: absolute;
     z-index: 1;
     top:0;
@@ -21,7 +21,7 @@ body {
     background-image: url(/img/snow.png);
     background-size: cover;
     animation: animationSnow 4s ease-in-out infinite;
-}
+} */
 @keyframes animationSnow{
     0%{
         transform: translate(0,0);
